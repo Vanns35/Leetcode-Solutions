@@ -1,11 +1,11 @@
 class Solution {
 public:
     // Function to calculate the difference between the product and sum of digits of a number
-    // Time Complexity: O(log10(n)), where n is the input number. This is because the number of digits in n is proportional to lon10(n).
+    // Time Complexity: O(log10(n)), where n is the input number. This is because the number of digits in n is proportional to log10(n).
     // Space Complexity: O(1), as the space used is constant regardless of the input size.
     int subtractProductAndSum(int n) {
 
-        // Initialize sum and product varibales
+        // Initialize sum and product variables
         int sum = 0, product = 1;
         
         // Loop until the entire number is processed
